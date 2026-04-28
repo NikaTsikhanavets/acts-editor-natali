@@ -2,7 +2,7 @@
   width: 100vw;
   height: 100vh;
   background-color: var(--bg);
-  background-image: url("../assets/images/background-purple.jpg");
+  background-image: url("../assets/images/background.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -15,11 +15,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.6);
   border-radius: 8px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 30px;
   max-height: calc(100vh - 50px);

@@ -108,7 +108,7 @@ export class DocumentService {
   }
 
   public getFile(): Observable<XLSX.WorkBook> {
-    const key: string = '1n3HN_QPod2FMl0ctkINVRqt_kO4_TImvYdZH2Lkb8Ac';
+    const key: string = '1jLH6HbB-fEDElHiOWRMjOW-pYaPoqQ7lD6oHeUt0UzA';
     return this.http.get(`https://docs.google.com/spreadsheet/ccc?key=${key}&output=xls`, { responseType: 'arraybuffer'}).pipe(
       map((data: ArrayBuffer) => XLSX.read(data, {type: 'array'}))
     );

@@ -55,7 +55,8 @@ export class PdfViewerComponent implements OnInit {
   private redoStack: Stamp[][] = [];
 
   private preloadedStamps = [
-    { id: 'suchilin', filename: 'suchilin_stamp.png', label: 'ИП Сучилин' },
+    { id: 'suchilin', filename: 'suchilin_stamp.png', label: 'ИП Сучилин A.C.' },
+    { id: 'suchilin-aa', filename: 'suchilin_a_a_stamp.png', label: 'ИП Сучилин A.A.' },
   ];
 
   constructor(private cdr: ChangeDetectorRef) {
